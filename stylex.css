@@ -1,0 +1,14 @@
+h2{background-color: bisque;}
+#a1{ color: rgb(169, 214, 199);}
+#f1{color: rgb(146, 196, 196); color: rgb(228, 14, 14);}
+#f2{background-color: rgb(196, 231, 228);}
+.z1{background-color: rgb(213, 214, 141);color: black;}
+#a1,.z1{color: black;}
+
+time{
+    width: 700px;
+    height: 700px;
+    background-color: blanchedalmond;
+    background-image: url(../../sample/sea-7394353_640.jpg);
+    background-repeat: repeat;
+}
