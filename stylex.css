@@ -89,7 +89,49 @@ table,td,th{
 #n1{
     color: red;
 }
-a{
+/* a{
     background-color: aqua;
     display: block;
+} */
+.text{
+    width: 100%;
+    height: 180px;
+    background-color: darksalmon;
+    overflow: auto;
+    /* overflow-y:auto; */
+    /* overflow-x: scroll; */
+    /* overflow-x: scroll; */
+    
+}
+#l1:link{
+    color: rgb(253, 36, 8);
+}
+#l1:visited{
+    color: peru;
+}
+#l1:active{
+    color: green;
+}
+#l1:hover{
+    color: dimgrey;
+}
+img:hover{
+    opacity: 0.8;
+
+}
+img{
+    opacity: 0.5;
+}
+#r1::first-line{
+    color: green;
+    font-variant: small-caps;
+
+}
+#r2::before{
+    content: '  $  ';
+    margin-left: 80px;
+}
+#r3::selection{
+    color: aqua;
+    background-color: red;
 }
