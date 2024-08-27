@@ -1,0 +1,21 @@
+.bg{
+    background-color: rgb(63, 109, 194);
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    flex-wrap: wrap ;
+}
+.sub{
+    height: 300px;
+    width: 30%;
+    background-color: rgb(187, 233, 233);
+}
+img{
+    height: 100%;
+    width: 100%;
+    
+}
