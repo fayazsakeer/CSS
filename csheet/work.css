@@ -1,4 +1,4 @@
-.bg{
+/* .bg{
     background-color: rgb(63, 109, 194);
     height: 800px;
     width: 100%;
@@ -6,10 +6,10 @@
     align-items: center;
     /* justify-content: center; */
     /* justify-content: space-around; */
-    justify-content: space-evenly;
+    /* justify-content: space-evenly;
     flex-wrap: wrap ;
-}
-.sub{
+} */ 
+/* .sub{
     height: 300px;
     width: 30%;
     background-color: rgb(187, 233, 233);
@@ -18,4 +18,20 @@ img{
     height: 100%;
     width: 100%;
     
+} */
+.cap{
+display: grid;
+background-color: cadetblue;
+height: 600px;
+grid-template-columns: auto auto ;
+grid-template-rows: 200px 150px;
+}
+.hat1{
+    background-color: aqua;
+}
+.hat2{
+    background-color: blue;
+}
+.hat3{
+    background-color: rgb(160, 95, 131);
 }

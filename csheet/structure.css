@@ -1,0 +1,34 @@
+.head{
+    background-color: antiquewhite;
+    grid-area: head;
+}
+.msg{
+    background-color: aqua;
+    grid-area: msg;
+}
+.img{
+    background-color: rgb(243, 150, 10);
+    grid-area: img;
+}
+.msg1{
+    background-color: burlywood;
+    grid-area: msg1;
+}
+.btn1{
+    background-color: chartreuse;
+    grid-area: btn1;
+}
+.btn2{
+    background-color: brown;
+    grid-area: btn2;
+}
+.main{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 'head head head head head head head'
+    'msg msg msg msg img img img'
+    'msg1 msg1 msg1 msg1 img img img'
+    'btn1 btn1 btn2 btn2 img img img';
+    grid-template-rows: 70px 350px 100px 50px;
+}
