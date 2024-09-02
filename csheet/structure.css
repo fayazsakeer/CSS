@@ -32,3 +32,21 @@
     'btn1 btn1 btn2 btn2 img img img';
     grid-template-rows: 70px 350px 100px 50px;
 }
+img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width:600px) and (max-width:800px) {
+    .main{
+        width: 70%;
+        margin: auto;
+        display: grid;
+        grid-template-areas: 'head head head head'
+        'msg msg msg msg '
+        'img img img img'
+        'msg1 msg1 msg1 msg1 '
+        'btn1 btn1 btn2 btn2 ';
+        grid-template-rows: 70px 150px 200px 50px 40px;
+    }
+}
